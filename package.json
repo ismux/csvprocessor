@@ -1,10 +1,16 @@
 {
+  "name": "csvprocessor",
+  "private": true,
  "scripts": {
- "back:dev": "cd packages/back && npm run dev",
- "front:dev": "cd packages/front && npm run dev",
- "dev": "npm-run-all --parallel back:dev front:dev"
+  "dev:back": "npm run dev --workspace=back",
+  "dev:front": "npm run dev --workspace=front",
+  "dev": "npm-run-all --parallel dev:back dev:front"
  },
+ "workspaces": [
+    "packages/**"
+ ],
  "devDependencies": {
+  "@s-ui/mono": "^2.45.0",
   "npm-run-all": "^4.1.5"
  }
 }
