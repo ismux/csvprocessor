@@ -49,7 +49,7 @@ npm run dev
 El API ha sido creado con node, y está configurado para que genere una nueva BBDD para persistir los ficheros CSV, 
 en caso de que no exista previamente.
 
-La comunicación del API con la BBDD se ha realizado mediante la librería <a href="https://www.npmjs.com/package/msnodesqlv8" target="_blank">msnodesqlv8</a>
+La comunicación del API con la BBDD se ha realizado mediante la librería <a href="https://www.npmjs.com/package/msnodesqlv8">msnodesqlv8</a>
 
 ### Inicio y configuración de la BBDD
 
@@ -88,5 +88,5 @@ Está configurado para arrancar en el puerto 4000:
 VITE_APP_PORT=4000
 VITE_APP_API=http://localhost:3000
 ```
-- Para el diseño de la interfaz se ha utilizado <a href="https://mui.com/" target="_blank">Material UI</a>
-- Para la comunicación con el API se ha utilizado <a href="https://www.npmjs.com/package/react-axios" target="_blank">Axios</a>
+- Para el diseño de la interfaz se ha utilizado <a href="https://mui.com/">Material UI</a>
+- Para la comunicación con el API se ha utilizado <a href="https://www.npmjs.com/package/react-axios">Axios</a>
