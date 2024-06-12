@@ -1,8 +1,3 @@
-/*
-   Si falla el proyecto al iniciar
-   rm -r node_modules
-   npm install
-*/
 import express, { Application } from 'express';
 import cors  from 'cors';
 import multer from "multer";
